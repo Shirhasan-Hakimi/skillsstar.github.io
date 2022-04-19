@@ -1,0 +1,257 @@
+/*RESPONSIVE DEVICE MEDIA 991PX*/
+
+@media (max-width: 1680px)  {
+	.contact-bg {
+		width: ;
+	}
+}
+
+@media (max-width: 1320px)  {
+	.contact-bg {
+		width: 47%;
+	}
+	.md-scr-size{
+	   width: 80%;
+	   float: right;
+	}
+	
+	.shape-1 {
+		left: 5%;
+		top: 133px;
+	}
+	.shape-2 {
+		left: 5%;
+		bottom: 327px;
+	}
+	.shape-3 {
+		left: 13%;
+		bottom: 110px;
+	}
+	.shape-4 {
+		right: 49px;
+		top: 105px;
+	}
+		
+}
+
+@media (max-width: 1200px)  {
+	.md-scr-size .section-title{
+		display: none;
+	}
+}
+
+@media (max-width: 991px)  {
+		
+	.section-title h2 {
+		font-size: 32px;
+		line-height: 38px;
+	}
+	#main-menu ul li {
+		margin-left: 7px;
+	}
+	#main-menu ul li a {
+		font-weight: 700;
+		transition: .5s;
+		font-size: 13px;
+	}
+	.welcome-area, .welcome-slider-area, .welcome-slider-area div {
+		height: auto;		
+	}
+	.welcome-area{
+		padding-top: 128px;
+		padding-bottom: 50px;
+	}
+	.single-slide-item h2 {
+		font-size: 35px;
+		line-height: 45px;
+		margin-top: 14px;
+		margin-bottom: 9px;
+	}
+	.shape-1,
+	.shape-2,
+	.shape-3,
+	.shape-4,
+	.shape-5{
+		display: none;
+	}
+	.single-slide-item .btn-home-border{
+		margin-bottom: 30px;
+	}
+	.contact-bg {
+		display: none;
+	}
+	.md-scr-size .section-title{
+		display: block;
+		text-align: center!important;
+	}
+	.md-scr-size{
+	   width: 100%;
+	   float: right;
+	}
+	.about_us{
+		background-image: inherit!important;
+	}
+	.about-content {
+		margin-bottom: 60px;
+	}
+	.counter_bg{
+		padding-bottom: 10px;
+	}
+	.skill-img,
+	.counter{
+		margin-bottom: 30px;
+	}
+	.footer_menu ul {
+		text-align: left;
+	}
+	.footer_menu ul li a {
+		margin: 0 8px;
+		font-size: 15px;
+	}
+	.footer_social {
+		margin-top: 40px;
+	}
+	
+	.portfolio-info{
+		margin-top: 33px;
+	}
+		
+}
+
+/*RESPONSIVE DEVICE MEDIA 768PX*/
+@media only screen and (max-width:768px) { 
+	.navbar-brand img {
+		height: auto;
+	}
+	.welcome-area, 
+	.welcome-slider-area, 
+	.welcome-slider-area div{
+		height: auto;
+	}
+	#welcome-slide-carousel .carousel-control{
+		display: none;
+	}
+	.slicknav_btn{
+		background-color: #FF7617;
+		color: #fff;
+		font-size: ;
+		width: 45px;
+		height: 45px;
+		line-height: 45px;
+		text-align: center;
+	}
+	.single-slide-item p {
+		padding: 0 3%;
+	}
+	.feature_img{
+		text-align: center;
+	}
+	.feature_img img{
+		display: inline-block;
+	}
+	#topcontrol{
+		display: none;
+	}
+.about_img{	margin-top:60px;}
+.counter_bg {padding-bottom: 30px;}
+.counter {margin-bottom:30px;}
+.pt-30 {margin-top:60px;}
+.feature_img{	margin-top:60px;}
+.single_service h4 {font-size: 20px;}
+.btn-price-bg {font-size: 12px;padding: 12px 20px;}
+
+}
+
+@media only screen and (max-width: 767px){
+	#main-menu{
+		display: none;
+		
+	}
+	#mobile_menu {
+		display: block;
+		width: 100%;
+		margin-top: 12px;
+	}
+	.footer_br{
+		text-align: center;
+	}
+	
+	.footer_menu {
+		margin-top: 10px;
+		display: inline-block;
+		margin-top: 30px;
+	}
+}
+
+/*RESPONSIVE DEVICE MEDIA 575PX*/
+@media (max-width: 575px)  {
+	.header_top,
+	.header_top_right.text-right{
+		text-align: center!important;
+	}
+	#navigation {
+		margin-top: 62px;
+	}
+	
+	
+	
+}
+	
+/*RESPONSIVE DEVICE MEDIA 480PX*/
+@media (max-width: 480px)  {
+.single_promo_btn {
+	display: inline-block;
+	margin-top: 30px;
+}
+.our_pricing {padding-bottom:50px;}
+.btn-price-bg {font-size: 16px;padding: 12px 40px;}
+.fresh-news  {padding-bottom:50px;}
+.pricingTable{margin-bottom:30px}
+.address_area{margin-bottom:50px}
+.subscribe__btn {
+	font-size: 15px;
+	height: 40px;
+	top: 8px;
+	width: 120px;
+}
+.footer_logo {
+	margin-top: 0px;
+	text-align: center;
+}
+.footer_social {
+	margin-top: 20px;
+}
+
+	
+}
+/*RESPONSIVE DEVICE MEDIA 414PX*/
+@media (max-width: 575px)  {
+	.#mobile_menu{
+		margin-top: 0!important;
+	}
+	.slicknav_nav ul{
+		padding: 0;
+	}
+	.slicknav_nav a{
+		padding: 5px 15px;
+		margin: 2px 0px;
+	}
+	#navigation.navbar-fixed{
+		padding: 15px  0;
+	}
+	.slicknav_btn {
+		top: -48px;
+		right: 15px;
+		position: absolute;
+	}
+	
+}
+
+
+/*RESPONSIVE DEVICE MEDIA 360PX*/
+@media (max-width: 360px)  {
+
+	
+}
+
+
