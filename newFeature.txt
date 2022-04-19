@@ -1,0 +1,8 @@
+git status
+git fetch
+git checkout develop  (create new branch)
+
+git checkout -b newFeature
+this command create and swtich to that barnch
+git push
+git push --set-upstream origin newFeatureBranch
